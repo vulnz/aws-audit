@@ -5,6 +5,7 @@ The main AWSAssessment class is properly structured with initialization and all 
 The essential methods like _run_aws_cli, run_assessment, and generate_report are present and correctly implemented.
 
 AWS CLI Interaction:
+ngrok config add-authtoken 1dWg1IVsJkyVuzvRJnQf3wtWTmc_7x9a6Jwq6JouWkdgu7WAo
 
 The script uses subprocess.run() to execute AWS CLI commands, which is the correct approach for pure Python.
 It properly handles command parameters like region and query options.
